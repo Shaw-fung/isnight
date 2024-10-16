@@ -1,0 +1,6 @@
+bs4
+urllib3
+requests
+fake_useragent
+flask
+flask_httpauth
