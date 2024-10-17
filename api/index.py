@@ -65,8 +65,8 @@ def isnight():
     for row in rows:
         columns = row.find_all('td')
         if current_date in columns[0].text:
-            sunrise = columns[5].text
-            sunset = columns[6].text
+            sunrise = columns[4].text
+            sunset = columns[5].text
 
             # 判断当前时刻是否在天亮时间和天黑时间之间
             if current_time < sunrise or current_time > sunset:
