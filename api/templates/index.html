@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>白天黑夜</title>
+    <title>日出、日落，白天、黑夜</title>
 </head>
 <body>
     <h1>今天的日期是 {{ current_date }}</h1>
     <h2>当前时间是 {{ current_time }}</h2>
-    <p>天亮时间：{{ sunrise }}</p>
-    <p>天黑时间：{{ sunset }}</p>
+    <p>日出时间：{{ sunrise }}</p>
+    <p>日落时间：{{ sunset }}</p>
     {% if result %}
         <p>当前时间处于夜晚</p>
     {% else %}
